@@ -1,7 +1,28 @@
 aid: reposit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reposit.png
 name: Reposit
-description: Reposit is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Reposit is a UK-based PropTech and fintech company offering a deposit
+  alternative for the residential rental market. Instead of paying a traditional
+  cash deposit, tenants pay a one-time, non-refundable fee (typically one week's
+  rent) for insurance-backed cover, while landlords and letting agents receive
+  protection worth up to eight weeks' rent. The FCA-authorised product is
+  underwritten by a leading insurer and serves letting agents, build-to-rent
+  (BTR) operators, landlords and tenants, with integrations into common property
+  management tools. This profile was surfaced as a Seedcamp portfolio company and
+  enriched by the API Evangelist pipeline; Reposit publishes no public developer
+  API surface at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/reposit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- PropTech
+- Insurance
+- Rental
+- Deposits
+- Real Estate
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/reposit-domain-security.yml
 - type: Website
   url: http://reposit.co.uk
+- type: Support
+  url: https://support.reposit.co.uk/
+- type: Blog
+  url: https://reposit.co.uk/blog/
+- type: PrivacyPolicy
+  url: https://reposit.co.uk/privacy-policy/
+- type: TermsOfService
+  url: https://reposit.co.uk/website-terms-of-use/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
